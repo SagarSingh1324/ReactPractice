@@ -11,6 +11,22 @@ export function App(props) {
     },
   []);
 
+  //   using async/await
+  
+  //   useEffect(() => {
+  //   const fetchData = async () => {
+  //     try {
+  //       const res = await fetch("https://api.sampleapis.com/coffee/hot");
+  //       const json = await res.json();
+  //       setData(json);
+  //     } catch (error) {
+  //       console.error("Error fetching data:", error);
+  //     }
+  //   };
+
+  //   fetchData(); 
+  // }, []); 
+
   return(
       <div>
         <ul>
